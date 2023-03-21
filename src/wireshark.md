@@ -25,7 +25,7 @@ wireshark需导入预主密钥才可解密国密协议或RFC8998流量。
 
 ### 导入预主密钥
 
-在wireshark的菜单中导入预主密钥，具体路径为`编辑-首选项-展开protocol列表-tls`,在`(Pre)-Master-Secret log filename`中添加导出的预主密钥。
+在wireshark的菜单中导入预主密钥，具体路径为`编辑-首选项-展开protocol列表-tls`,在`(Pre)-Master-Secret log filename`中添加导出的预主密钥。   
 ![import](images/wireshark-import.jpg)
    
 打开捕获到的国密数据包，即可看到解密后的国密流量或者rfc8998流量。
